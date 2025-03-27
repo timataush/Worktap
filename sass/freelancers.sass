@@ -1,0 +1,133 @@
+.freelancers
+  padding: 80px 0 0 0
+  background-color: white
+  font-family: 'Montserrat', sans-serif
+
+  &__container
+    max-width: 1320px
+    margin: 0 auto
+    padding: 0 32px
+
+  &__title
+    font-family: 'Montserrat', sans-serif
+    font-weight: 600
+    font-size: 24px
+    line-height: 100%
+    color: #333333
+    letter-spacing: 2px
+    margin-bottom: 77px
+
+  &__grid
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    gap: 30px
+    margin-bottom: 40px
+
+  &__profile
+    background: white
+    width: 420px
+    height: 261px
+    border-radius: 20px
+    padding: 24px
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05)
+    transition: all 0.3s ease
+    &:hover
+      transform: translateY(-5px)
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1)
+
+    &-header
+      display: flex
+      align-items: center
+      margin-bottom: 16px
+
+    &-avatar
+      width: 150px
+      height: 150px
+      border-radius: 50%
+      object-fit: cover
+      margin-right: 16px
+      border: 2px solid #F2F0FE
+
+    &-details
+      flex: 1
+      width: 188px
+      height: 121px
+
+    &-name
+      color: #333
+      font-weight: 500
+      font-size: 16px
+      line-height: 100%
+      letter-spacing: 0
+      font-family: 'Montserrat', sans-serif
+      margin-bottom: 15px
+
+    &-specialty
+      color: #FBA457
+      font-weight: 600
+      font-size: 18px
+      line-height: 100%
+      letter-spacing: 0
+      font-family: 'Montserrat', sans-serif
+      margin-bottom: 15px
+
+
+    &-stats
+      color: #222222
+      font-weight: 500
+      font-size: 14px
+      line-height: 100%
+      letter-spacing: 0
+      font-family: 'Montserrat', sans-serif
+      margin-bottom: 15px
+
+
+    &-rating
+      display: flex
+      margin: 12px 0 20px 0
+      gap: 5px
+
+      &-star
+        color: #FBA457
+        width: 22px
+        height: 22px
+
+
+    &-btn
+      border: 1px solid #1DBF73
+      border-radius: 50px
+      padding: 12px 24px
+      color: #1DBF73
+      background-color: white
+      font-weight: 600
+      font-size: 16px
+      cursor: pointer
+      transition: background 0.2s ease
+      width: 100%
+
+      &:hover
+        background: #18a966
+        color: white
+
+  &__view-all
+    display: flex
+    align-items: center
+    justify-content: center
+    background-color: #F2F0FE
+    color: #1DBF73
+    cursor: pointer
+    transition: background 0.3s ease
+    border-radius: 16px
+
+    &:hover
+      transform: translateY(-5px)
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1)
+
+    &-text
+      color: #1DBF73
+      font-weight: 600
+      font-size: 18px
+      margin: 0
+      text-align: center
+      padding: 24px
+      width: 100%
