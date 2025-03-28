@@ -169,7 +169,6 @@
 
 
 
-.main
   @media (max-width: 1200px)
     &__wrap
       &-left
@@ -179,7 +178,6 @@
     &__subtitle
       font-size: 18px
 
-.main
   @media (max-width: 1019px)
     height: 600px
     &__title
@@ -190,11 +188,24 @@
     &__search
       width: 92%
 
-.main
   @media (max-width: 925px)
     &__title
       //display: none
       //font-size: 30px
 
+  @media (max-width: 756px)
+    &__categories
+      grid-template-columns: repeat(2, minmax(0, 1fr))
+      &-item
+        border: 1px solid #F2F0FE
+        padding: 22px 12px
+        font-weight: 500
+        font-size: 14px
+
+  @media (max-width: 468px)
+    &__search
+      &-input
+        &::placeholder
+          visibility: hidden
 
 

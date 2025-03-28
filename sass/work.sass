@@ -122,3 +122,81 @@
       &:hover
         background: #1DBF73
         color: white
+
+
+
+.work
+  @media (max-width: 1287px)
+    &__card
+      width: 100%
+      &-text
+        width: 100%
+        font-size: 12px
+        margin-bottom: 10px
+        &-last
+          display: contents
+          align-items: center
+          font-size: 17px
+
+  @media (max-width: 1280px)
+    //&__card
+    //  width: 100%
+  @media (max-width: 1200px)
+    //&__card
+    //  width: 100%
+    //&__card
+
+  @media (max-width: 1019px)
+    height: 100%
+    &__grid
+      grid-template-columns: repeat(2, 1fr)
+      gap: 18px
+    &__card
+      &-text
+        font-size: 14px
+        &-last
+          font-size: 22px
+
+
+
+  @media (max-width: 832px)
+    &__grid
+      grid-template-columns: repeat(1, 2fr)
+      gap: 10px
+    &__card
+      &-text
+        font-size: 15px
+        &-last
+          font-size: 22px
+
+
+      &-person
+        flex-direction: column
+        margin: 0 auto
+      &-logo
+        width: 65px
+        height: 65px
+
+
+
+  @media (max-width: 756px)
+    &__card
+      &-text
+        //font-size: 10px
+        //display: none
+
+  @media (max-width: 622px)
+    &__card
+      &-text
+        font-size: 13px
+      &-title
+        margin-bottom: 8px
+  @media (max-width: 468px)
+    &__card
+      justify-content: space-around
+      &-text
+        display: none
+        &-last
+          display: block
+          font-size: 22px
+

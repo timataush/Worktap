@@ -1,36 +1,213 @@
+//.freelancers
+//  padding: 80px 0 0 0
+//  background-color: white
+//  font-family: 'Montserrat', sans-serif
+//
+//  &__container
+//    max-width: 1320px
+//    margin: 0 auto
+//    padding: 0 32px
+//
+//  &__title
+//    font-family: 'Montserrat', sans-serif
+//    font-weight: 600
+//    font-size: 24px
+//    line-height: 100%
+//    color: #333333
+//    letter-spacing: 2px
+//    margin-bottom: 77px
+//
+//  &__grid
+//    display: grid
+//    grid-template-columns: repeat(3, 1fr)
+//    gap: 30px
+//    margin-bottom: 40px
+//
+//  &__profile
+//    background: white
+//    width: 420px
+//    height: 261px
+//    border-radius: 20px
+//    padding: 24px
+//    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05)
+//    transition: all 0.3s ease
+//    &:hover
+//      transform: translateY(-5px)
+//      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1)
+//
+//    &-header
+//      display: flex
+//      align-items: center
+//      margin-bottom: 16px
+//
+//    &-avatar
+//      width: 150px
+//      height: 150px
+//      border-radius: 50%
+//      object-fit: cover
+//      margin-right: 16px
+//      border: 2px solid #F2F0FE
+//
+//    &-details
+//      flex: 1
+//      width: 188px
+//      height: 121px
+//
+//    &-name
+//      color: #333
+//      font-weight: 500
+//      font-size: 16px
+//      line-height: 100%
+//      letter-spacing: 0
+//      font-family: 'Montserrat', sans-serif
+//      margin-bottom: 15px
+//
+//    &-specialty
+//      color: #FBA457
+//      font-weight: 600
+//      font-size: 18px
+//      line-height: 100%
+//      letter-spacing: 0
+//      font-family: 'Montserrat', sans-serif
+//      margin-bottom: 15px
+//
+//
+//    &-stats
+//      color: #222222
+//      font-weight: 500
+//      font-size: 14px
+//      line-height: 100%
+//      letter-spacing: 0
+//      font-family: 'Montserrat', sans-serif
+//      margin-bottom: 15px
+//
+//
+//    &-rating
+//      display: flex
+//      margin: 12px 0 20px 0
+//      gap: 5px
+//
+//      &-star
+//        color: #FBA457
+//        width: 22px
+//        height: 22px
+//
+//
+//    &-btn
+//      border: 1px solid #1DBF73
+//      border-radius: 50px
+//      padding: 12px 24px
+//      color: #1DBF73
+//      background-color: white
+//      font-weight: 600
+//      font-size: 16px
+//      cursor: pointer
+//      transition: background 0.2s ease
+//      width: 100%
+//
+//      &:hover
+//        background: #18a966
+//        color: white
+//
+//  &__view-all
+//    display: flex
+//    align-items: center
+//    justify-content: center
+//    background-color: #F2F0FE
+//    color: #1DBF73
+//    cursor: pointer
+//    transition: background 0.3s ease
+//    border-radius: 16px
+//
+//    &:hover
+//      transform: translateY(-5px)
+//      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1)
+//
+//    &-text
+//      color: #1DBF73
+//      font-weight: 600
+//      font-size: 18px
+//      margin: 0
+//      text-align: center
+//      padding: 24px
+//      width: 100%
+//
+//
+//.freelancers
+//  @media (max-width: 1287px)
+//    &__container
+//      width: 100%
+//    &__grid
+//      width: 100%
+//      gap: 10px
+//    &__profile
+//      width: 100%
+//      &-header
+//        width: 100%
+//
+//
+//  @media (max-width: 1280px)
+//  @media (max-width: 1200px)
+//
+//  @media (max-width: 1019px)
+//    height: 100%
+//    &__grid
+//      grid-template-columns: repeat(2, 1fr)
+//      gap: 18px
+//  @media (max-width: 832px)
+//  @media (max-width: 756px)
+//  @media (max-width: 622px)
+//  @media (max-width: 468px)
+
+
+
 .freelancers
-  padding: 80px 0 0 0
+  padding: 80px 0
   background-color: white
   font-family: 'Montserrat', sans-serif
+  box-sizing: border-box
+  width: 100%
+  overflow: hidden
 
   &__container
     max-width: 1320px
     margin: 0 auto
     padding: 0 32px
+    box-sizing: border-box
+    width: 100%
 
   &__title
-    font-family: 'Montserrat', sans-serif
     font-weight: 600
     font-size: 24px
     line-height: 100%
     color: #333333
     letter-spacing: 2px
     margin-bottom: 77px
+    text-align: center
 
   &__grid
     display: grid
     grid-template-columns: repeat(3, 1fr)
     gap: 30px
     margin-bottom: 40px
+    width: 100%
 
   &__profile
     background: white
-    width: 420px
+    width: 100%
+    max-width: 420px
     height: 261px
     border-radius: 20px
     padding: 24px
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05)
     transition: all 0.3s ease
+    margin: 0 auto
+    box-sizing: border-box
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    position: relative
+
     &:hover
       transform: translateY(-5px)
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1)
@@ -39,10 +216,12 @@
       display: flex
       align-items: center
       margin-bottom: 16px
+      width: 100%
 
     &-avatar
       width: 150px
       height: 150px
+      min-width: 150px
       border-radius: 50%
       object-fit: cover
       margin-right: 16px
@@ -50,48 +229,46 @@
 
     &-details
       flex: 1
-      width: 188px
-      height: 121px
+      min-width: 0
+      width: calc(100% - 166px)
 
     &-name
-      color: #333
       font-weight: 500
       font-size: 16px
-      line-height: 100%
-      letter-spacing: 0
-      font-family: 'Montserrat', sans-serif
+      color: #333
       margin-bottom: 15px
+      white-space: nowrap
+      overflow: hidden
+      text-overflow: ellipsis
+      width: 100%
 
     &-specialty
       color: #FBA457
       font-weight: 600
       font-size: 18px
-      line-height: 100%
-      letter-spacing: 0
-      font-family: 'Montserrat', sans-serif
       margin-bottom: 15px
-
+      white-space: nowrap
+      overflow: hidden
+      text-overflow: ellipsis
+      width: 100%
 
     &-stats
       color: #222222
       font-weight: 500
       font-size: 14px
-      line-height: 100%
-      letter-spacing: 0
-      font-family: 'Montserrat', sans-serif
       margin-bottom: 15px
-
+      width: 100%
 
     &-rating
       display: flex
       margin: 12px 0 20px 0
       gap: 5px
+      width: 100%
 
       &-star
-        color: #FBA457
         width: 22px
         height: 22px
-
+        color: #FBA457
 
     &-btn
       border: 1px solid #1DBF73
@@ -104,6 +281,8 @@
       cursor: pointer
       transition: background 0.2s ease
       width: 100%
+      box-sizing: border-box
+      text-align: center
 
       &:hover
         background: #18a966
@@ -114,10 +293,14 @@
     align-items: center
     justify-content: center
     background-color: #F2F0FE
-    color: #1DBF73
-    cursor: pointer
-    transition: background 0.3s ease
     border-radius: 16px
+    cursor: pointer
+    transition: all 0.3s ease
+    height: 261px
+    width: 100%
+    max-width: 420px
+    margin: 0 auto
+    box-sizing: border-box
 
     &:hover
       transform: translateY(-5px)
@@ -131,3 +314,92 @@
       text-align: center
       padding: 24px
       width: 100%
+
+@media (max-width: 1350px)
+  .freelancers
+    &__profile
+      &-avatar
+        width: 120px
+        height: 120px
+        min-width: 120px
+    &__grid
+      grid-template-columns: repeat(3, minmax(0, 380px))
+      justify-content: center
+
+@media (max-width: 1205px)
+  .freelancers
+    &__grid
+      gap: 24px
+    &__profile
+      padding: 7px
+      justify-content: space-around
+      &-name
+        font-size: 14px
+      &-specialty
+        font-size: 16px
+      &-header
+        margin: 0
+
+@media (max-width: 1150px)
+  .freelancers
+    &__grid
+      grid-template-columns: repeat(3, minmax(0, 340px))
+
+@media (max-width: 1024px)
+  .freelancers
+    &__container
+      padding: 0 24px
+    &__grid
+      grid-template-columns: repeat(2, minmax(0, 380px))
+    &__profile
+      height: 280px
+      &-details
+        width: calc(100% - 166px)
+
+@media (max-width: 840px)
+  .freelancers
+    &__grid
+      grid-template-columns: repeat(2, minmax(0, 340px))
+
+@media (max-width: 768px)
+  .freelancers
+    padding: 60px 0
+    &__title
+      margin-bottom: 50px
+      font-size: 22px
+    &__grid
+      grid-template-columns: minmax(0, 420px)
+    &__profile
+      height: auto
+      min-height: 260px
+      &-header
+        flex-direction: column
+        align-items: center
+        text-align: center
+      &-avatar
+        margin-right: 0
+        margin-bottom: 15px
+      &-details
+        width: 100%
+        text-align: center
+      &-rating
+        justify-content: center
+
+@media (max-width: 480px)
+  .freelancers
+    &__container
+      padding: 0 16px
+    &__profile
+      padding: 20px
+      &-avatar
+        width: 120px
+        height: 120px
+        min-width: 120px
+      &-btn
+        padding: 10px 20px
+        font-size: 14px
+    &__view-all
+      height: 200px
+      &-text
+        padding: 20px
+        font-size: 16px
