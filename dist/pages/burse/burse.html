@@ -1,0 +1,30 @@
+<!-- pages/burse/burse.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Биржа ворков | Worktap</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pages/burse.css">
+</head>
+<body>
+@@include('../header/header.html')
+
+<main class="burse">
+    <section class="filter-section">
+        @@include('../blocks/burse/filter.html')
+    </section>
+
+    <section class="works-list">
+        @@repeat('../blocks/burse/work-item.html', 10)
+    </section>
+</main>
+
+@@include('../blocks/common/footer/footer.html')
+
+@@include('../blocks/common/navbar/navbar.html')
+
+
+<script src="../js/burse.js"></script>
+</body>
+</html>

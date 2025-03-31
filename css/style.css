@@ -1019,7 +1019,7 @@
 }
 
 .reactive {
-  background-image: url(../image/background.png);
+  background-image: url(/assets/image/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1141,7 +1141,7 @@
   width: 25px;
 }
 .navbar__icon-birdg:before {
-  --icon: url("../image/birdg.png");
+  --icon: url("../../../assets/image/birdg.png");
   background-color: green;
   mask-image: var(--icon);
   mask-repeat: no-repeat;
@@ -1151,7 +1151,7 @@
   width: 24px;
 }
 .navbar__icon-work:before {
-  --icon: url("../image/work.png");
+  --icon: url("../../../assets/image/work.png");
   mask-position: 50%;
   mask-repeat: no-repeat;
   mask-image: var(--icon);
@@ -1161,7 +1161,7 @@
   width: 20px;
 }
 .navbar__icon-konc:before {
-  --icon: url("../image/konc.png");
+  --icon: url("../../../assets/image/konc.png");
   mask-position: 50%;
   mask-repeat: no-repeat;
   mask-image: var(--icon);
@@ -1172,7 +1172,7 @@
   width: 20px;
 }
 .navbar__icon-dowork:before {
-  --icon: url("../image/dowork.png");
+  --icon: url("../../../assets/image/dowork.png");
   mask-position: 50%;
   mask-repeat: no-repeat;
   mask-image: var(--icon);
@@ -1182,7 +1182,7 @@
   width: 20px;
 }
 .navbar__icon-order:before {
-  --icon: url("../image/order.png");
+  --icon: url("../../../assets/image/order.png");
   mask-position: 50%;
   mask-repeat: no-repeat;
   mask-image: var(--icon);

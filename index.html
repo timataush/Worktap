@@ -7,38 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="header">
-    <div class="header__container">
-        <a href="#" class="header__logo">
-            <img class="header__logo-img" src="image/logo.png" alt="Верк">
-        </a>
 
-        <nav class="header__menu">
-            <a class="header__menu-item header__menu-exchange" href="#">
-                <span>Биржа</span>
-            </a>
-            <a class="header__menu-item header__menu-works" href="#">
-                <span>Ворки</span>
-            </a>
-            <a class="header__menu-item header__menu-competitions" href="#">
-                <span>Конкурсы</span>
-            </a>
-            <a class="header__menu-item header__menu-dowork" href="#">
-                <span>Сделать ворк</span>
-            </a>
-            <a class="header__menu-item header__menu-order" href="#">
-                <span>Сделать заказ</span>
-            </a>
-        </nav>
-
-        <div class="header__actions">
-            <a href="#" class="header__registration">
-                <span class="header__registration-text">Регистрация</span>
-            </a>
-            <button class="header__login">Войти</button>
-        </div>
-    </div>
-</div>
+@@include('header/header.html')
 
 
 <div class="main">
@@ -76,9 +46,9 @@
             </div>
 
             <div class="main__wrap-right">
-                <img src="image/hero.png">
+                <img src="/assets/image/hero.png">
             </div>
-        </div>
+        </div>/
     </div>
 </div>
 
@@ -91,7 +61,7 @@
         <div class="work__grid">
             <div class="work__card">
                     <div class="work__card-person">
-                        <img class="work__card-logo" src="image/person1.png" alt="">
+                        <img class="work__card-logo" src="/assets/image/person1.png" alt="">
                         <h2 class="work__card-title">Сделать дизайн интернет-магазина</h2>
                     </div>
                     <p class="work__card-text">
@@ -101,7 +71,7 @@
 
             <div class="work__card">
                     <div class="work__card-person">
-                        <img class="work__card-logo" src="image/person2.png" alt="">
+                        <img class="work__card-logo" src="/assets/image/person2.png" alt="">
                         <h2 class="work__card-title">Верстка landing page</h2>
                     </div>
                     <p class="work__card-text">
@@ -113,7 +83,7 @@
 
             <div class="work__card">
                 <div class="work__card-person">
-                    <img class="work__card-logo" src="image/person3.png" alt="">
+                    <img class="work__card-logo" src="/assets/image/person3.png" alt="">
                     <h2 class="work__card-title">Сделать дизайн сайта-каталога и посадить</h2>
                 </div>
                 <p class="work__card-text">
@@ -123,7 +93,7 @@
 
             <div class="work__card">
                     <div class="work__card-person">
-                        <img class="work__card-logo" src="image/person4.svg" alt="">
+                        <img class="work__card-logo" src="/assets/image/person4.svg" alt="">
                         <h2 class="work__card-title">Продвижение instagram</h2>
                     </div>
                     <p class="work__card-text">
@@ -133,7 +103,7 @@
 
             <div class="work__card">
                     <div class="work__card-person">
-                        <img class="work__card-logo" src="image/person5.png" alt="">
+                        <img class="work__card-logo" src="/assets/image/person5.png" alt="">
                         <h2 class="work__card-title">Срочно! Нужен веб дизайнер!</h2>
                     </div>
                     <p class="work__card-text">
@@ -162,17 +132,17 @@
 
             <div class="freelancers__profile">
                 <div class="freelancers__profile-header">
-                    <img class="freelancers__profile-avatar" src="image/free1.png" alt="Марина Королёва">
+                    <img class="freelancers__profile-avatar" src="/assets/image/free1.png" alt="Марина Королёва">
                     <div class="freelancers__profile-details">
                         <div class="freelancers__profile-name">Марина Королёва</div>
                         <div class="freelancers__profile-specialty">Разработчик PHP</div>
                         <div class="freelancers__profile-stats">Выполнено проектов: 65</div>
                         <div class="freelancers__profile-rating">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
                         </div>
                     </div>
 
@@ -183,17 +153,17 @@
 
             <div class="freelancers__profile">
                 <div class="freelancers__profile-header">
-                    <img class="freelancers__profile-avatar" src="image/free2.png" alt="Марина Королёва">
+                    <img class="freelancers__profile-avatar" src="/assets/image/free2.png" alt="Марина Королёва">
                     <div class="freelancers__profile-details">
                         <div class="freelancers__profile-name">Семён Сергеев</div>
                         <div class="freelancers__profile-specialty">Копирайтер</div>
                         <div class="freelancers__profile-stats">Выполено проектов: 104</div>
                         <div class="freelancers__profile-rating">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
                         </div>
                     </div>
 
@@ -204,17 +174,17 @@
 
             <div class="freelancers__profile">
                 <div class="freelancers__profile-header">
-                    <img class="freelancers__profile-avatar" src="image/free3.png" alt="Марина Королёва">
+                    <img class="freelancers__profile-avatar" src="/assets/image/free3.png" alt="Марина Королёва">
                     <div class="freelancers__profile-details">
                         <div class="freelancers__profile-name">Ангелина Сорокина</div>
                         <div class="freelancers__profile-specialty">Дизайнер сайтов</div>
                         <div class="freelancers__profile-stats">Выполнено проектов: 25</div>
                         <div class="freelancers__profile-rating">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
                         </div>
                     </div>
 
@@ -225,17 +195,17 @@
 
             <div class="freelancers__profile">
                 <div class="freelancers__profile-header">
-                    <img class="freelancers__profile-avatar" src="image/free4.png" alt="Марина Королёва">
+                    <img class="freelancers__profile-avatar" src="/assets/image/free4.png" alt="Марина Королёва">
                     <div class="freelancers__profile-details">
                         <div class="freelancers__profile-name">Никита Зайцев</div>
                         <div class="freelancers__profile-specialty">Маркетолог</div>
                         <div class="freelancers__profile-stats">Выполнено проектов: 144</div>
                         <div class="freelancers__profile-rating">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
                         </div>
                     </div>
 
@@ -246,17 +216,17 @@
 
             <div class="freelancers__profile">
                 <div class="freelancers__profile-header">
-                    <img class="freelancers__profile-avatar" src="image/free5.png" alt="Марина Королёва">
+                    <img class="freelancers__profile-avatar" src="/assets/image/free5.png" alt="Марина Королёва">
                     <div class="freelancers__profile-details">
                         <div class="freelancers__profile-name">Наталья Захарова</div>
                         <div class="freelancers__profile-specialty">Motion дизайнер</div>
                         <div class="freelancers__profile-stats">Выполнено проектов: 71</div>
                         <div class="freelancers__profile-rating">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
-                            <img src="image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
+                            <img src="/assets/image/star.png" class="freelancers__profile-rating-star">
                         </div>
                     </div>
 
@@ -283,23 +253,22 @@
 
 
             <div class="worktap__variants">
-                <img class="worktap__avatar" src="image/woman.svg" alt="">
+                <img class="worktap__avatar" src="/assets/image/woman.svg" alt="">
                 <h2 class="worktap__name">Выберите услугу</h2>
                 <span class="worktap__description">В супермаркете WorkTap представлен широкий выбор услуг от квалифицированных специалистов.</span>
             </div>
 
             <div class="worktap__variants">
-                <img class="worktap__avatar" src="image/money.svg" alt="">
+                <img class="worktap__avatar" src="/assets/image/money.svg" alt="">
                 <h2 class="worktap__name">Оплатите</h2>
                 <span class="worktap__description">Деньги будут перечислены продавцу после того, как он выполнит работу, и вы её одобрите.</span>
             </div>
 
             <div class="worktap__variants">
-                <img class="worktap__avatar" src="image/result.svg" alt="">
+                <img class="worktap__avatar" src="/assets/image/result.svg" alt="">
                 <h2 class="worktap__name">Получите результат</h2>
                 <span class="worktap__description">Наш супермаркет гарантирует вам возврат средств в полном объёме в случае невыполнения заказа.</span>
             </div>
-
         </div>
     </div>
 </div>
@@ -312,15 +281,15 @@
     <div class="reactive__title">Как WorkTap помогает бизнесу?</div>
     <div class="reactive__menu">
         <div class="reactive__payment reactive__menu-item">
-            <img class="reactive__logo" src="image/card.svg">
+            <img class="reactive__logo" src="/assets/image/card.svg">
             <span class="reactive__text">Оплачивайте с р/с или карты компании</span>
         </div>
         <div class="reactive__economy reactive__menu-item">
-            <img class="reactive__logo" src="image/cash.svg">
+            <img class="reactive__logo" src="/assets/image/cash.svg">
             <span class="reactive__text">Экономьте до 87% бюджета на фрилансе</span>
         </div>
         <div class="reactive__time reactive__menu-item">
-            <img class="reactive__logo" src="image/clock.svg">
+            <img class="reactive__logo" src="/assets/image/clock.svg">
             <span class="reactive__text">Экономьте до 75% времени на решении фриланс задач</span>
         </div>
     </div>
@@ -332,97 +301,12 @@
 </div>
 </div>
 
+@@include('footer/footer.html')
 
 
-<div class="footer">
-    <div class="footer__container">
-        <div class="footer__info">
-            <div class="footer__info-item">
-                <h2 class="footer__title">Топ категории</h2>
-                <ul class="footer__list">
-                    <li class="footer__dropdown">Тексты и переводы</li>
-                    <li class="footer__dropdown">Разработка</li>
-                    <li class="footer__dropdown">Дизайн</li>
-                    <li class="footer__dropdown">Аудио, видео монтаж</li>
-                    <li class="footer__dropdown">Соцсети и реклама</li>
-                    <li class="footer__dropdown">Бизнес и жизнь</li>
-                    <li class="footer__dropdown">SEO и оптимизация</li>
-                </ul>
-            </div>
-
-            <div class="footer__info-item">
-                <h2 class="footer__title">О Проекте</h2>
-                <ul class="footer__list">
-                    <li class="footer__dropdown">О Нас</li>
-                    <li class="footer__dropdown">Как Это Работает</li>
-                    <li class="footer__dropdown">Политика Приватности</li>
-                    <li class="footer__dropdown">Правила Пользования</li>
-                    <li class="footer__dropdown">Пресса о нас</li>
-                </ul>
-            </div>
-
-            <div class="footer__info-item">
-                <h2 class="footer__title">Поддержка</h2>
-                <ul class="footer__list">
-                    <li class="footer__dropdown">Контакты</li>
-                    <li class="footer__dropdown">Политика Безопасности</li>
-                    <li class="footer__dropdown">FAQ</li>
-                </ul>
-            </div>
-            <div class="footer__info-item">
-
-                <h2 class="footer__title">Follow</h2>
-                <div class="footer__media">
-                <div class="footer__media-icon">
-                    <a>
-                    <img class="footer__media-icon-all" src="image/facebook.png">
-                    </a>
-                </div>
-                <div class="footer__media-icon">
-                    <a>
-                        <img class="footer__media-icon-all" src="image/twitter.png">
-                    </a>
-                </div>
-                <div class="footer__media-icon">
-                    <a>
-                        <img class="footer__media-icon-all" src="image/insta.png">
-                    </a>
-                </div>
-                <div class="footer__media-icon">
-                    <a>
-                        <img class="footer__media-icon-all" src="image/linkedin.png">
-                    </a>
-                </div>
-            </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="footer__description">Copyright @ 2021 | WorkTap – Worktap.KZ. All Rights Reserved</div>
-</div>
+@@include('navbar/navbar.html')
 
 
-<div class="navbar">
-    <a href="/" class="navbar__link">
-        <span class="navbar__icon navbar__icon-birdg"></span>
-    </a>
-    <div class="navbar__wrap">
-        <button class="navbar__link navbar__link-button">
-            <span class="navbar__icon navbar__icon-work"></span>
-        </button>
-    </div>
-    <a href="/" class="navbar__link">
-    <span class="navbar__icon navbar__icon-konc">
-          <span class="navbar__notify"></span>
-    </span>
-    </a>
-    <a href="/" class="navbar__link">
-        <span class="navbar__icon navbar__icon-dowork"></span>
-    </a>
-    <a href="/" class="navbar__link">
-        <span class="navbar__icon navbar__icon-order"></span>
-    </a>
-</div>
 
 </body>
 
